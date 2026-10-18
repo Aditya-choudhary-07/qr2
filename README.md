@@ -4,15 +4,15 @@ A minimalist, interactive HTML web page with smooth fade animations and cute int
 
 ---
 
-## 📱 Scan to Open Content
+## 📱 Scan to Play / View Live Page
 
-Scan this QR code with your phone camera to open the live interactive webpage:
+Scan this QR code with your phone camera to open the live interactive webpage directly:
 
 ![Live Webpage QR Code](https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://aditya-choudhary-07.github.io/qr2/qr.html)
 
 ---
 
-## 🔗 Direct Live Link
+## 🔗 Live Website Link
 [Click here to open the live webpage](https://aditya-choudhary-07.github.io/qr2/qr.html)
 
 ---
