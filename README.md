@@ -4,11 +4,16 @@ A minimalist, interactive HTML web page with smooth fade animations and cute int
 
 ---
 
-## 📱 Scan to Open Repo
+## 📱 Scan to Open Content
 
-Scan the QR code below on your mobile phone to open this repository directly:
+Scan this QR code with your phone camera to open the live interactive webpage:
 
-![Repository QR Code](https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://github.com/Aditya-choudhary-07/qr2)
+![Live Webpage QR Code](https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://aditya-choudhary-07.github.io/qr2/qr.html)
+
+---
+
+## 🔗 Direct Live Link
+[Click here to open the live webpage](https://aditya-choudhary-07.github.io/qr2/qr.html)
 
 ---
 
@@ -127,3 +132,4 @@ function nextSlide(current) {
 
 </body>
 </html>
+```
