@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Who's the Cutest? 🖤</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide {
+  width: 100%;
+  padding: 25px;
+  animation: fade 0.6s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: clamp(27px, 6vw, 38px);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+p {
+  color: #ccc;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+button {
+  margin-top: 20px;
+  padding: 14px 24px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.emoji {
+  font-size: 85px;
+  margin-top: 25px;
+  animation: blush 1s infinite alternate;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes blush {
+  to { transform: scale(1.12); }
+}
+</style>
+</head>
+
+<body>
+
+<!-- SLIDE 1 -->
+<div class="slide" id="slide1">
+  <h1>Wanna see who is the cutest person in this world? 🥹</h1>
+  <button onclick="nextSlide(1)">Click here 👀</button>
+</div>
+
+<!-- SLIDE 2 -->
+<div class="slide hidden" id="slide2">
+  <h1>Are you sure you wanna know? 🤭</h1>
+  <p>Then go ahead...</p>
+  <button onclick="nextSlide(2)">I'm sure 😌</button>
+</div>
+
+<!-- SLIDE 3 -->
+<div class="slide hidden" id="slide3">
+  <h1>Go check your mirror 🪞</h1>
+  <p>
+    Because the cutest person in this world
+    is looking right back at you. 🖤
+  </p>
+  <div class="emoji">🥹👉👈</div>
+  <p>Now stop blushing, you cutie. 😂🤍</p>
+</div>
+
+<script>
+function nextSlide(current) {
+  document.getElementById("slide" + current)
+    .classList.add("hidden");
+
+  document.getElementById("slide" + (current + 1))
+    .classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
